@@ -6,6 +6,7 @@
  
  body {
     margin: 0;
+    font-family: 'Quicksand', sans-serif;;
 }
 
 
@@ -34,17 +35,19 @@
 
 
 h1 {
-     font-family: Lora;
+     /* font-family: Lora; */
      font-size: 2rem;
      /* display: flex; */
-     margin-bottom: .33rem;
+     margin-bottom: .5rem;
+     margin-top: .25rem;
+     color: navy;
      /* align-items: center; */
 
 }
 
 h3 {
     
-    font-family: ubuntu bold;
+    /* font-family: ubuntu bold; */
     font-size: 1rem;
     margin-top: .25rem;
     color: navy;
@@ -54,6 +57,7 @@ h3 {
     width: 100px;
     height: auto;
     border-radius: 7em;
+    margin-top: 1.25rem
 }
 .nav {
     display: flex;
@@ -70,7 +74,7 @@ div li{
     /* display: inline; */
     padding: 0px 30px;
     font-size: 1rem; 
-    font-family: ubuntu;
+    /* font-family: ubuntu; */
     font-size: bold;
     /* margin: 0 1em; */
 }

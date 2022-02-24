@@ -1,0 +1,122 @@
+/*  Fonts
+    -----
+    font-family: 'Lora', serif;
+    font-family: 'Ubuntu', sans-serif;
+ */
+ 
+ body {
+    margin: 0;
+}
+
+
+.container {
+    background: #F8F8F8;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    /* width: 90%; */
+    /* max-width: 960px; */
+    /* border: solid 2px red; */
+
+    
+    /* box shadow1 */
+    /* -webkit-box-shadow: 0 10px 5px #888888;
+    -moz-box-shadow: 0 10px 5px #888888;
+    box-shadow: 0 3px 5px #888888;   */
+    /* box shadow2 */
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 4px 5px -6px #222;
+
+}
+
+
+h1 {
+     font-family: Lora;
+     font-size: 2rem;
+     /* display: flex; */
+     margin-bottom: .33rem;
+     /* align-items: center; */
+
+}
+
+h3 {
+    
+    font-family: ubuntu bold;
+    font-size: 1rem;
+    margin-top: .25rem;
+    color: navy;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+div ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+div li{
+    /* display: inline; */
+    padding: 0px 30px;
+    font-size: 1rem; 
+    font-family: ubuntu;
+    font-size: bold;
+    /* margin: 0 1em; */
+}
+
+div a {
+    text-decoration: none;
+    color: #707070;
+    
+}
+
+
+div a:hover {
+    /* text-decoration: underline solid 0.2rem; */
+    /* text-decoration-color: purple; */
+   /* border-bottom: 2px solid navy; */
+   /* border-top: 4px solid purple; */
+    transition: border-bottom 100ms;
+    color: navy;
+}
+
+div a:active {
+    border-bottom: 2px solid navy;
+    /* border-top: 2px solid rebeccapurple; */
+}
+
+#currentPage {
+    border-bottom: 2px solid navy;
+    color: navy;
+
+}
+
+
+.photoHolder {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin: 40px auto;
+    align-items: center;
+    
+}
+
+img {
+    width: 500px;
+}
+
+
+@media (max-width:1060px) {
+    div ul {
+        flex-direction: column;  
+    }
+    div li {
+        padding: 0.5rem 0;
+    }
+}

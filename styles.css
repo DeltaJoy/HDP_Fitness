@@ -68,6 +68,8 @@ h3 {
     align-items: center;
     justify-content: center; 
 }
+
+
 div ul {
     display: flex;
     list-style: none;
@@ -125,7 +127,7 @@ img {
 }
 /* -------------------Main Page-------------------------- */
 .photo {
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
     justify-content: center;
 }
@@ -148,10 +150,11 @@ img {
 
 .aboutMePhoto {
     /* padding: 1rem; */
-    border: #f1eeee solid 1.25rem;
+    /* border: #f1eeee solid 1.25rem; */
     width: 275px;
     height: auto;
     display: flex;
+    margin: 1rem;
  
 }
 
@@ -170,7 +173,9 @@ img {
     width: 50%;
     display: flex;
     align-content: center;
-    justify-content: center;
+    /* justify-content: space-evenly; */
+    margin: 1.25rem;
+
 }
 
 main div {
@@ -239,11 +244,21 @@ main div {
     text-align: center;
 }
 
+.email {
+    padding-bottom: 1rem;
+}
+
 @media (max-width:1060px) {
     div ul {
         flex-direction: column;  
     }
     div li {
         padding: 0.5rem 0;
+    }
+}
+
+@media (max-width:1040px) {
+    .aboutMeMain {
+        flex-direction: column;
     }
 }

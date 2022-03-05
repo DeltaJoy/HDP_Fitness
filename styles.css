@@ -1,9 +1,4 @@
-/*  Fonts
-    -----
-    font-family: 'Lora', serif;
-    font-family: 'Ubuntu', sans-serif;
- */
- 
+
  body {
     margin: 0;
     font-family: 'Quicksand', sans-serif;;
@@ -17,16 +12,6 @@
     text-align: center;
     justify-content: center;
     margin: 0 auto;
-    /* width: 90%; */
-    /* max-width: 960px; */
-    /* border: solid 2px red; */
-
-    
-    /* box shadow1 */
-    /* -webkit-box-shadow: 0 10px 5px #888888;
-    -moz-box-shadow: 0 10px 5px #888888;
-    box-shadow: 0 3px 5px #888888;   */
-    /* box shadow2 */
     -webkit-box-shadow: 0 4px 6px -6px #222;
     -moz-box-shadow: 0 4px 6px -6px #222;
     box-shadow: 0 4px 5px -6px #222;
@@ -35,27 +20,20 @@
 
 
 h1 {
-     /* font-family: Lora; */
      font-size: 2rem;
-     /* display: flex; */
      margin-bottom: .5rem;
      margin-top: .25rem;
      color: navy;
-     /* align-items: center; */
 
 }
 
 h3 {
     
-    /* font-family: ubuntu bold; */
     font-size: 1rem;
     margin-top: .25rem;
     color: navy;
 }
 
-/* h4 {
-    margin: 1rem 0 0 0;
-} */
 
 .logo {
     width: 100px;
@@ -72,13 +50,15 @@ h3 {
 
 div ul {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     list-style: none;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 div li{
     /* display: inline; */
-    padding: 0px 30px;
+    padding: 5px 30px;
     font-size: 1rem; 
     /* font-family: ubuntu; */
     font-size: bold;
@@ -93,10 +73,6 @@ div a {
 
 
 div a:hover {
-    /* text-decoration: underline solid 0.2rem; */
-    /* text-decoration-color: purple; */
-   /* border-bottom: 2px solid navy; */
-   /* border-top: 4px solid purple; */
     transition: border-bottom 100ms;
     color: navy;
 }
@@ -113,33 +89,21 @@ div a:active {
 }
 
 
-/* .photoHolder {
-    display: flex;
-    justify-content: center;
-    width: 200px;
-    margin: 40px auto;
-    align-items: center;
-    
-} */
 
 img {
     width: 500px;
 }
-/* -------------------Main Page-------------------------- */
-.photo {
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-}
+/* -------------------Main Page------------------------- */
 
-.mainPhoto {
-    /* padding: 1rem; */
-    border: #f1eeee solid 1.25rem;
-}
+
+
+
+
+
 
 /* ------------------About Me Page---------------------------- */
 
-.aboutMeContainerMain {
+.aboutMeContainerMain { 
     display: flex;
     /* padding: 2rem; */
     border: solid white 2rem;
@@ -181,12 +145,6 @@ img {
 main div {
     padding: auto 2rem;
 }
-
-
-
-
-
-
 /* -------------------------------------------------------- */
 
 
@@ -214,7 +172,10 @@ main div {
 
 
 
-/* -------------------------------------------------------- */
+
+
+
+/* -----------------------Footer--------------------------------- */
 
 
 .footerContainer {
@@ -248,17 +209,108 @@ main div {
     padding-bottom: 1rem;
 }
 
-@media (max-width:1060px) {
-    div ul {
-        flex-direction: column;  
-    }
-    div li {
-        padding: 0.5rem 0;
-    }
+.aboutMePara {
+    padding: 0 1.25rem;
 }
 
-@media (max-width:1040px) {
-    .aboutMeMain {
-        flex-direction: column;
-    }
+.aboutMePicture {
+    width: 70%;
+    /* height: 100vh;
+    object-fit: cover; */
 }
+
+.container.aboutMeOne  {
+    background-color: white;
+}
+
+
+.aboutMePara h1 {
+    border-top: 2px navy solid;
+    border-bottom: 2px navy solid;
+    padding: 1rem 0 1rem 0;
+    margin: 1rem auto;
+    width: 100%;
+}
+
+
+/* ------------------MEDIA QUERYS-------------------------------------- */
+
+@media (min-width:800px) {
+    div ul {
+        flex-direction: row;  
+    }
+    div li {
+        padding: 0 10px;
+    }
+    .container.aboutMeOne {
+        display: flex;
+        flex-direction: row;
+    }
+    .one {
+        max-height: 100vh;
+        max-width: 100%;
+        /* background-color: green; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 0;
+        
+    }
+    .aboutMePara {
+        /* background-color: pink; */
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: auto 3rem;
+    }
+
+
+
+    
+
+
+
+}
+
+
+
+   
+
+
+
+
+  
+    
+
+  
+
+
+/* ------------------FOOTER------------------------------------- */
+
+
+
+
+ .socials {
+     color: white;
+     display: flex;
+     /* align-items: center; */
+     justify-content: space-around;
+     min-width: 100%;
+     padding: 0 auto;
+     margin: 0 auto;
+    
+    }
+
+    .yes {
+        color: white;
+        display: flex;
+        padding: 0 1rem;
+    }
+
+
+
+
+
+

@@ -53,8 +53,12 @@ div ul {
     flex-direction: column;
     justify-content: space-between;
     list-style: none;
+    padding-left: 0;
+
     /* justify-content: center; */
 }
+
+
 
 div li{
     /* display: inline; */
@@ -240,7 +244,7 @@ main div {
         flex-direction: row;  
     }
     div li {
-        padding: 0 10px;
+        /* padding: 0 10px; */
     }
     .container.aboutMeOne {
         display: flex;

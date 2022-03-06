@@ -1,7 +1,8 @@
 
  body {
     margin: 0;
-    font-family: 'Quicksand', sans-serif;;
+    font-family: raleway;
+    /* font-family: 'Quicksand', sans-serif;; */
 }
 
 
@@ -270,6 +271,8 @@ main div {
         padding: auto 3rem;
     }
 
+   
+
 
 
     
@@ -318,3 +321,54 @@ main div {
 
 
 
+/* ------------------TRANS------------------------------------- */
+
+
+
+.transContainer {
+    max-width: 70%;
+    /* background-color: yellow; */
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.enlarged {
+    font-size: 10rem;
+    text-align: start;
+    justify-content: start;
+    margin-top: 0;
+    margin-bottom: -7rem;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+.quoteSection {
+    width: 100%;
+    margin-top: 0rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.testName {
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.transPhoto {
+    width: 35%;
+}
+
+.progressPicture {
+    border-radius: 1rem;
+    display: inline-block;
+    max-width: 100%;
+
+}

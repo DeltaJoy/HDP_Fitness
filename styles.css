@@ -344,8 +344,22 @@ main div {
     margin-top: 0;
     margin-bottom: -7rem;
     font-family: 'Space Grotesk', sans-serif;
+    color: #88868E;
+
 
 }
+
+.enlargedEnd {
+    font-size: 10rem;
+    text-align: end;
+    margin-top: -3rem;
+    margin-bottom: -4rem;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #88868E;
+
+
+
+} 
 
 .quoteSection {
     width: 100%;
@@ -357,8 +371,15 @@ main div {
 
 
 .testName {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: lato;
+    color: navy;
+    padding-left: 4rem;
+
+
 
 }
 

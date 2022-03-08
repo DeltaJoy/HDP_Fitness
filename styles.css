@@ -2,6 +2,7 @@
  body {
     margin: 0;
     font-family: raleway;
+    height: 100vh;
     /* font-family: 'Quicksand', sans-serif;; */
 }
 
@@ -25,6 +26,7 @@ h1 {
      margin-bottom: .5rem;
      margin-top: .25rem;
      color: navy;
+     letter-spacing: 1.5px;
 
 }
 
@@ -73,6 +75,7 @@ div li{
 div a {
     text-decoration: none;
     color: #707070;
+    letter-spacing: 1px;
     
 }
 
@@ -99,6 +102,51 @@ img {
     width: 500px;
 }
 /* -------------------Main Page------------------------- */
+
+/* 
+.coverPhoto {
+    background-image: url(pictures/legExtensionBW.jpeg);
+    padding: 10rem; */
+
+    /* background-position: center;  
+    background-size: cover; */
+
+.coverPhoto {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* 
+
+.coverPhoto h1 {
+    text-align: center;
+    font-size: 6rem;
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px;
+}
+ */
+
+/* 
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+} */
+
+
+
+
+
+
+
+
 
 
 
@@ -353,7 +401,7 @@ main div {
     font-size: 10rem;
     text-align: end;
     margin-top: -3rem;
-    margin-bottom: -4rem;
+    margin-bottom: -5rem;
     font-family: 'Space Grotesk', sans-serif;
     color: #88868E;
 
@@ -387,9 +435,39 @@ main div {
     width: 35%;
 }
 
+
+
+.progressContainer {
+    position: relative;
+
+}
+
+.progressContainer:after {
+    content: '';
+    background: transparent;
+    border: 10px solid navy;
+    top: 17px;
+    right: 17px;
+    bottom: -17px;
+    left: -17px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 1rem;
+
+}
+
 .progressPicture {
     border-radius: 1rem;
     display: inline-block;
     max-width: 100%;
 
+}
+
+.progressPicture {
+    display: flex;
+
+}
+
+.para1 {
+    line-height: 1.6;
 }

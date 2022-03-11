@@ -299,13 +299,16 @@ main div {
 
 /* ------------------MEDIA QUERYS-------------------------------------- */
 
-@media (min-width:800px) {
+@media (min-width:840px) {
     div ul {
         flex-direction: row;  
     }
     div li {
-        /* padding: 0 10px; */
+        padding: 0 10px;
+        margin: 0 auto;
     }
+  
+
     .container.aboutMeOne {
         display: flex;
         flex-direction: row;
@@ -331,6 +334,12 @@ main div {
 
     }
 
+    .quoteSection {
+        max-width: 800px;
+    }
+
+    
+
    
 
 
@@ -347,11 +356,16 @@ main div {
 
 /* ------------------SIGN UP------------------------------------- */
 
+
+.widthForForm {
+    width: 80%;
+    margin: 0 auto;
+}
 .appPara {
     color: navy;
     font-weight: bold;
     font-family: raleway;
-    margin: 1rem 20rem 3rem;
+    margin: 1rem 0 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -369,7 +383,7 @@ label {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0.5rem 20rem 0.5rem;
+    margin: 0.5rem 2rem;
     ;
 }
 
@@ -432,7 +446,9 @@ textarea {
     align-items: center;
 }
 
-
+.firstContainer {
+    margin-top: 4rem;
+}
 
 
 .enlarged {
@@ -475,7 +491,7 @@ textarea {
     margin-bottom: 0;
     font-family: lato;
     color: navy;
-    padding-left: 4rem;
+    padding-left: 1rem;
 
 
 

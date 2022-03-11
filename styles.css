@@ -6,6 +6,10 @@
     /* font-family: 'Quicksand', sans-serif;; */
 }
 
+body *{
+    box-sizing: border-box;
+}
+
 
 .container {
     background: #F8F8F8;
@@ -175,12 +179,12 @@ img {
  
 }
 
-.aboutMePara1 {
+/* aboutMePara1 {
     background-color: #f1eeee;
     padding: 1.25rem;
     width: 50%;
-    /* height: 100%; */
-}
+    NOT IN USE
+} */
 
 
 .aboutMeMain {
@@ -262,8 +266,15 @@ main div {
     padding-bottom: 1rem;
 }
 
+
+
+
+
+
+
 .aboutMePara {
-    padding: 0 1.25rem;
+    padding: 0 3rem;
+
 }
 
 .aboutMePicture {
@@ -311,12 +322,13 @@ main div {
     }
     .aboutMePara {
         /* background-color: pink; */
-        width: 75%;
+        /* width: 75%; */
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
-        padding: auto 3rem;
+        padding: auto 10rem;
+       
+
     }
 
    
@@ -333,7 +345,45 @@ main div {
 
    
 
+/* ------------------SIGN UP------------------------------------- */
 
+.appPara {
+    color: navy;
+    font-weight: bold;
+    font-family: raleway;
+    margin: 1rem 20rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5rem 20rem 0.5rem;
+    ;
+}
+
+input,
+textarea {
+    border-radius: 0.25rem;
+    border-color: lightgrey;
+    resize: none;
+
+}
+
+::placeholder {
+    color: lightgrey;
+}
 
 
   
@@ -471,3 +521,6 @@ main div {
 .para1 {
     line-height: 1.6;
 }
+
+
+

@@ -358,7 +358,8 @@ main div {
 
 
 .widthForForm {
-    width: 80%;
+    /* width: 80%; */
+    max-width: 800px;
     margin: 0 auto;
 }
 .appPara {
@@ -377,6 +378,7 @@ form {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    width: 100%;
 }
 
 label {

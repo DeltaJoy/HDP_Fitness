@@ -413,7 +413,7 @@ textarea {
 .buttonCenter {
     display: block; 
     text-align: center; 
-    margin: 1rem 0;
+    margin: 1rem 0 5rem;
     
 
 }
@@ -422,7 +422,26 @@ textarea {
     width: 50%;
     padding: 10px 15px;
     border-radius: 0.25rem;  
-    border: solid 1px lightgray;  
+    /* border: solid 1px lightgray;  */
+    background-image: linear-gradient(70deg, navy, #302b63, navy);  
+    opacity: 0.8;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+ 
+   
+}
+
+.submitButton:hover {
+    background-image: linear-gradient(70deg, navy, #302b63, navy);  
+    opacity: 0.9;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
 }
     
 

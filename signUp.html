@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- below should avoid zooming when inputting data on form -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
     <link rel = "stylesheet" href = "styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,45 +36,45 @@
 
 
     <div class = "widthForForm">
-        <form action = "#" method = "#">
+        <form id ="emailCollection" action = "#" method = "#" >
 
             <label for="fname">
                 <br>
-                <textarea id = "fname" type="text" required placeholder="First Name" size="60"></textarea>
+                <textarea id = "fname" name = "firstName" type="text" required placeholder="First Name" size="60"></textarea>
             </label>
             <br>
             
         
             <label for="lname">
                 <br>
-                <textarea id = "lname" type="text"  placeholder="Last Name" size="60"></textarea>
+                <textarea id = "lname" name = "lastName" type="text"  placeholder="Last Name" size="60"></textarea>
             </label>
             <br>
 
         
             <label for="eMail">
                 <br>
-                <textarea id = "eMail" required placeholder="Email@example.com" size="60"></textarea>
+                <textarea id = "eMail" name = "emailAddress" required placeholder="Email@example.com" size="60"></textarea>
             </label>
             <br>
 
             
             <label for="socialMediaHandles">
                 <br>
-                <textarea id = "socialMediaHandles"  placeholder="@Facebook, @Instagram, @Snapchat etc." size="60"></textarea>
+                <textarea id = "socialMediaHandles"  name = "socialMediaHandles" placeholder="@Facebook, @Instagram, @Snapchat etc." size="60"></textarea>
             </label>
             <br>
             
 
             <label for="hearAboutMe">
                 <br>
-                <textarea id = "hearAboutMe" cols="48" rows="10" placeholder="How did you hear about me?"></textarea>
+                <textarea id = "hearAboutMe" name = "howDidYouHear" cols="48" rows="10" placeholder="How did you hear about me?"></textarea>
             </label>
             <br>
 
             <label for="fitnessGoals">
                 <br>
-                <textarea id= "fitnessGoals" cols="48" rows="10" required placeholder="What are your fitness goals?" resize = "none"></textarea>
+                <textarea id= "fitnessGoals" name = "yourFitnessGoals" cols="48" rows="10" required placeholder="What are your fitness goals?" resize = "none"></textarea>
             </label>
             <br>
 
@@ -79,14 +82,14 @@
 
             <label for="commitedGoals">
                 <br>
-                <textarea id = "commitedGoals" cols="48" rows="10" required placeholder="How commited are you to these goals?"></textarea>
+                <textarea id = "commitedGoals" name = "areYouCommitted" cols="48" rows="10" required placeholder="How commited are you to these goals?"></textarea>
             </label>
             <br>
 
 
             <label for="concernsForTraining">
                 <br>
-                <textarea id = "concernsForTraining" cols="48" rows="10" required placeholder="Are there any concerns or past experiences that you would like to share?"></textarea>
+                <textarea id = "concernsForTraining" name = "additionalConcerns" cols="48" rows="10" required placeholder="Are there any concerns or past experiences that you would like to share?"></textarea>
             </label>
             <br>
     

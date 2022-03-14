@@ -6,6 +6,8 @@ emailCollector.addEventListener("submit", event => {
     event.preventDefault()
     
     let ourFormData = new FormData(event.target)
+
+
     let userFirstName = ourFormData.get("firstName")
     let userLastName = ourFormData.get("lastName")
     let userEmailAddress = ourFormData.get("emailAddress")
@@ -23,5 +25,25 @@ emailCollector.addEventListener("submit", event => {
     console.log(userGoals)
     console.log(userCommitted)
     console.log(userConcerns)
+
+
+    let confirmedMessageSent = 
+        `<h1 class = "editedScreen">Thanks ${userFirstName},</h1>
+        <h1>I will be getting in touch with you. </h1>
+        
+
+        
+        
+        `
+
+    let = replaceText = document.getElementById("replaceAfterSubmit")
+
+
+    replaceText.classList.add("submittedClass");
+    replaceText.innerHTML = confirmedMessageSent
+
+ 
+
+    
 })
 

@@ -29,18 +29,18 @@
                 <li><a href = "oc.html" id = "x">ONLINE</a></li>
                 <li><a href = "trans.html" id = "x">RESULTS</a></li>
                 <li><a href = "aboutMe.html" id = "x">ABOUT ME</a></li>
-                <li><a href = "signUp.html" id = "currentPage">APPLY</a></li>
+                <li><a href = "signUp.html" id = "currentPage">INQUIRE</a></li>
             </ul>
         </div>
     </div>
 
 
     <div class = "widthForForm" id = "replaceAfterSubmit">
-        <form id ="emailCollection" action = "#" method = "#" >
+        <form id ="emailCollection" action = "#" method = "POST" >
 
             <label for="fname">
                 <br>
-                <textarea id = "fname" name = "firstName" type="text" required placeholder="First Name" size="60"></textarea>
+                <textarea id = "fname" name = "firstName" type="text"  placeholder="First Name" size="60"></textarea>
             </label>
             <br>
             
@@ -54,7 +54,7 @@
         
             <label for="eMail">
                 <br>
-                <textarea id = "eMail" name = "emailAddress" required placeholder="Email@example.com" size="60"></textarea>
+                <textarea id = "eMail" name = "emailAddress"  placeholder="Email@example.com" size="60"></textarea>
             </label>
             <br>
 
@@ -68,28 +68,38 @@
 
             <label for="hearAboutMe">
                 <br>
-                <textarea id = "hearAboutMe" name = "howDidYouHear" cols="48" rows="10" placeholder="How did you hear about me?"></textarea>
+                <textarea id = "hearAboutMe" name = "howDidYouHear" placeholder="How did you hear about me?"></textarea>
             </label>
             <br>
 
-            <label for="fitnessGoals">
-                <br>
-                <textarea id= "fitnessGoals" name = "yourFitnessGoals" cols="48" rows="10" required placeholder="What are your fitness goals?" resize = "none"></textarea>
-            </label>
-            <br>
+
+
 
             <p class = "appPara">My services require a level and time of commitment for every individual. Whether you are inquiring about online training or in-person training, weekly check-ins and thorough communication is necessary to work together successfully.</p>
 
-            <label for="commitedGoals">
+
+
+
+            <label for="fitnessGoals">
                 <br>
-                <textarea id = "commitedGoals" name = "areYouCommitted" cols="48" rows="10" required placeholder="How commited are you to these goals?"></textarea>
+                <textarea id= "fitnessGoals" name = "yourFitnessGoals" cols="48" rows="10"  placeholder="What are your fitness goals?" resize = "none"></textarea>
             </label>
             <br>
+
+
+            <!-- <label for="commitedGoals">
+                <br>
+                <textarea id = "commitedGoals" name = "areYouCommitted" cols="48" rows="10"  placeholder="How commited are you to these goals?"></textarea>
+            </label>
+            <br> -->
+
+
+            <!-- REMOVE POSSIBLY REPLACE LATER IF SHE WANTS -->
 
 
             <label for="concernsForTraining">
                 <br>
-                <textarea id = "concernsForTraining" name = "additionalConcerns" cols="48" rows="10" required placeholder="Are there any concerns or past experiences that you would like to share?"></textarea>
+                <textarea id = "concernsForTraining" name = "additionalConcerns" cols="48" rows="10"  placeholder="Are there any concerns or past experiences that you would like to share?"></textarea>
             </label>
             <br>
     

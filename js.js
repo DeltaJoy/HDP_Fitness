@@ -28,8 +28,14 @@ emailCollector.addEventListener("submit", event => {
 
 
     let confirmedMessageSent = 
-        `<h1 class = "editedScreen">Thanks ${userFirstName},</h1>
-        <h1>I will be getting in touch with you. </h1>
+        `<h1>
+            Thanks ${userFirstName},
+        </h1>
+        <h2>
+            Please remember, in order to help you achieve your goals, and better your results, my services are accompanied by your full committment. 
+            
+            
+        </h2>
         
 
         

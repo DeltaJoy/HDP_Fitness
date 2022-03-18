@@ -211,15 +211,64 @@ img {
 main div {
     padding: auto 2rem;
 }
-/* -------------------------------------------------------- */
+/* ---------------------------ONLINE COACHING----------------------------- */
 
 
+.photoHolder {
+    display: flex;
+    flex-wrap: wrap;  
+    /* width: 90%; */
+    /* margin: 1rem auto;   */
+    justify-content: center;
+}
+
+.photoContainer {
+    height: 100%;
+    width: 100%;
+    max-width: 800px;
+    margin: 1rem;
+    padding: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    justify-content: center;
+    display: flex
+    
+    
+
+}
+.photoContainer:hover {
+    height: 100%;
+    width: 100%;
+    max-width: 800px;
+    /* padding: 1rem;
+    margin: 1rem; */
+    background-color: rgb(93, 90, 90);
+    background-blend-mode: overlay;
+    /* background-size: 200px; */
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
 
 
+.textInsideBox {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   width: 100%
 
 
+}
 
 
+.photoContainer p {
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+    margin: 0;
+}
 
 
 
